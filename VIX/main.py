@@ -9,7 +9,7 @@ Prototype: Forward-Looking Portfolio Optimizer using VIX and market inputs.
 
 Notes:
 - VIX is an annualized percentage (e.g., 15 => 15% annualized vol).
-- Replace ASSETS with your target tickers (ETF or single-stock tickers).
+- Replace ASSETS with your target tickers (ETF or single-stock )
 - For production, swap yfinance with Bloomberg/Polygon data connectors and add robust error handling.
 """
 
@@ -263,3 +263,4 @@ if __name__ == "__main__":
     plt.title("Volatility-targeted weights")
     plt.ylabel("Weight")
     plt.show()
+
