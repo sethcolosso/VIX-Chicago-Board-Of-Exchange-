@@ -5,3 +5,4 @@
 - VIX is an annualized percentage 
 - Replace ASSETS with your target tickers (ETF or single-stock )
 - For production, swap yfinance with Bloomberg/Polygon data connectors and add robust error handling.
+- needs more improvement or some fine tuning
